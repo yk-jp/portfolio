@@ -16,7 +16,7 @@ module.exports = {
   },
 
   devServer: {
-    static: './build',
+    static: './build/',
     port: 3000
   },
 

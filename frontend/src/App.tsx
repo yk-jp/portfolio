@@ -1,13 +1,11 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
-import Header from "./components/Header/Header";
-
+import Hero from "./components/Hero/Hero";
 
 const App = () => {
   return (
     <Router>
-      <Header />
-      <div id="AboutMe">Hello</div>
+      <Hero />
     </Router>
   );
 }

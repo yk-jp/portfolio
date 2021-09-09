@@ -1,8 +1,8 @@
 // hash routing
 import { HashLink } from 'react-router-hash-link';
 // menu icon
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 // event for menu
 import MenuController from './controllers/MenuController';
 

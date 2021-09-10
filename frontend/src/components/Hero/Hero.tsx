@@ -1,24 +1,27 @@
+// font awesome
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 // components
 import Header from "../Header/Header";
 import SocialAccounts from "../SocialAccounts/SocialAccounts";
 // css
 import './css/style.css';
-import { HeroContainer, HeroTextDiv } from './css/styled';
+import { HeroContainer, SelfIntroContainer, SelfIntroTextDiv } from './css/styled';
 
 const Hero = () => {
   return (
-    <section>
+    <HeroContainer>
       <Header />
-      <HeroContainer>
+      <SelfIntroContainer>
         {/* self-info text */}
-        <HeroTextDiv>
-          <h3 className="white-text center-align">Yusuke</h3>
-          <h5 className="white-text center-align">Backend Developer</h5>
-        </HeroTextDiv>
+        <SelfIntroTextDiv>
+          <h2 className="white-text center-align">Yusuke</h2>
+          <h4 className="white-text center-align">Backend Developer</h4>
+        </SelfIntroTextDiv>
         {/* social accounts */}
         <SocialAccounts />
-      </HeroContainer>
-    </section >
+      </SelfIntroContainer>
+    </HeroContainer>
   )
 }
 

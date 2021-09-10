@@ -1,11 +1,9 @@
 import styled from "styled-components";
 
-export const AboutMeContainer = styled.div`
-  height:30vh;
+export const ProjectsContainer = styled.div`
+  height:100vh;
   display:flex;
   align-items:center;
   justify-content:center;
   flex-direction:column;
 `;
-
-export const AboutMeTextDiv = styled.div``;

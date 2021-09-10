@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-export const AboutMeContainer = styled.div`
-  height:30vh;
+export const ContactContainer = styled.div`
+  height: 60vh;
   display:flex;
   align-items:center;
   justify-content:center;
   flex-direction:column;
 `;
 
-export const AboutMeTextDiv = styled.div``;
+export const ContactTextDiv = styled.div``;

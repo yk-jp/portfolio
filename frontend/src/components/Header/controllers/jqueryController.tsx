@@ -1,18 +1,16 @@
 import { useEffect } from 'react';
 import M from 'materialize-css';
 
-const MenuController = () => {
+const jqueryController = () => {
 
-  const DOMContentLoadedDispatch = () => {
+  const sideBarDispatch = () => {
     const elems = document.querySelectorAll('.sidenav');
     M.Sidenav.init(elems);
   }
 
   useEffect(() => {
-
-    DOMContentLoadedDispatch();
-
+    sideBarDispatch();
   }, []);
 }
 
-export default MenuController;
+export default jqueryController;

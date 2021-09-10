@@ -1,18 +1,18 @@
 import { useEffect } from 'react';
 import M from 'materialize-css';
 
-const ToolTipsController = () => {
+const jqueryController = () => {
 
-  const DOMContentLoadedDispatch = () => {
+  const tooltippedDispatch = () => {
     const elems = document.querySelectorAll('.tooltipped');
     M.Tooltip.init(elems);
   }
 
   useEffect(() => {
 
-    DOMContentLoadedDispatch();
+    tooltippedDispatch();
 
   }, []);
 }
 
-export default ToolTipsController;
+export default jqueryController;

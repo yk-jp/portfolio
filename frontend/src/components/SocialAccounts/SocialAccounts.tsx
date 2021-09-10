@@ -4,10 +4,10 @@ import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons';
 // css
 import { AccountContainer, TwitterDiv, LinkedInDiv, GitHubDiv, MailDiv, ResumeDiv } from './css/styled';
 // controller
-import ToolTipsController from './controllers/ToolTipsController';
+import jqueryController from './controllers/jqueryController';
 const SocialAccounts = () => {
 
-  ToolTipsController();
+  jqueryController();
 
   return (
     <AccountContainer>

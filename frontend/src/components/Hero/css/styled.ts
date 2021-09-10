@@ -1,7 +1,11 @@
 import styled from 'styled-components';
 
-// self-intro 
 export const HeroContainer = styled.div`
+  height:100vh;
+`;
+
+// self-intro 
+export const SelfIntroContainer = styled.div`
   height: 60%;
   display:flex;
   align-items:center;
@@ -9,10 +13,5 @@ export const HeroContainer = styled.div`
   flex-direction:column;
 `;
 
-export const HeroTextDiv = styled.div``;
+export const SelfIntroTextDiv = styled.div``;
 
-
-// contact media account 
-
-
-// button

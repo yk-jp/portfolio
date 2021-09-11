@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectContainer = styled.div`
-  
+  height:auto;
 `;
 
 export const ProjectmainImgDiv = styled.div`
@@ -30,9 +30,8 @@ export const Img = styled.img`
 
    /* laptop */
    @media(min-width:768px) { 
-    width:30vw;
+    width:21vw;
     height:25vh;
   }
 `;
-
 

@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
-  height:100vh;
+  height:auto;
+  min-height:100vh;
 `;
 
 // self-intro 

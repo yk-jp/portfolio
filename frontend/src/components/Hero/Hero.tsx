@@ -1,11 +1,7 @@
-// font awesome
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 // components
 import Header from "../Header/Header";
 import SocialAccounts from "../SocialAccounts/SocialAccounts";
-// css
-import './css/style.css';
+
 import { HeroContainer, SelfIntroContainer, SelfIntroTextDiv } from './css/styled';
 
 const Hero = () => {

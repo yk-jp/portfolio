@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
-  height:100vh;
   display:flex;
   align-items:center;
   justify-content:center;
   flex-direction:column;
+  margin-top:3em;
 `;
 
 export const ProjectsSectionDiv = styled.div`
@@ -15,10 +15,6 @@ export const ProjectsSectionDiv = styled.div`
 export const ProjectsDiv = styled.div`
   display:flex;
   justify-content:center;
-  flex-direction: column;
-
-  /* laptop */
-  @media(min-width:768px) { 
-    flex-direction: row;
-  }
+  flex-wrap: wrap;
+  width:100%;
 `;

@@ -1,10 +1,24 @@
-import { ProjectsContainer } from './css/styled';
-
+import { ProjectsContainer, ProjectsSectionDiv, ProjectsDiv } from './css/styled';
+import Project from '../Project/Project';
 const Projects = () => {
   return (
-    <ProjectsContainer>
-      <h4 id="Projects" className="center-align margin-bottom-30px orange-text text-darken-1">Projects</h4>
-      <p className="white-text center-align margin-bottom-30px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis unde dolores sit consequatur illum quaerat, distinctio assumenda enim ab quos quia possimus excepturi cupiditate autem ratione id. Earum neque magni ut harum praesentium sit quas ab veritatis autem maxime at illum unde est porro omnis, voluptatibus dolores saepe sapiente eaque dolore cupiditate mollitia dicta tempore deleniti. Dolorem voluptate deserunt aliquid veniam nobis dicta iure repellat delectus quidem placeat sequi pariatur unde corporis assumenda amet, quia exercitationem nesciunt ad quam aliquam, sint blanditiis dolores, iste commodi. Enim, veritatis. Totam rerum harum, in, cum amet repudiandae delectus accusamus aut, officiis repellat non vitae? Ad optio velit et earum quasi placeat quaerat similique itaque, dolorem repudiandae numquam dicta, minus ducimus commodi animi perferendis temporibus maxime fugit aspernatur dolores aperiam quidem! Inventore fuga quibusdam, quaerat sequi ullam, error accusamus expedita corporis doloremque veritatis ipsa! Molestias praesentium, id animi aliquid harum odit ex laudantium fuga itaque laboriosam in maiores incidunt, quam eius dignissimos esse magni, ducimus illo. Facilis nemo, saepe quaerat provident earum ipsam quos in quae nihil voluptates consectetur deleniti dolor nostrum iure voluptas dignissimos fugit quidem libero sunt doloremque ab minima eius! Ratione, deleniti? Adipisci animi quo libero eveniet praesentium quis consequatur odit? Porro, at inventore! Perspiciatis saepe quibusdam dolorem, laudantium nihil beatae dolores ullam porro numquam adipisci cumque? Totam rerum officiis quas itaque, facilis voluptatum necessitatibus laborum quaerat voluptas tempora nobis harum aut adipisci amet maiores quam optio eaque in eum neque voluptatem, temporibus nulla quisquam? Tempora dicta dolorum illum quaerat minima animi quae dolore cupiditate, quia repellendus obcaecati quis vero quo aut sapiente aliquid vel consequuntur porro, libero optio? Animi maxime id labore nulla suscipit alias qui error perspiciatis non laborum quo aspernatur, optio quis odio. Eligendi ipsum officia quisquam quas accusamus, ut asperiores veniam quam odit perferendis adipisci, delectus magnam voluptatibus. Nihil iusto minima incidunt repudiandae sit deleniti magnam, placeat eaque, nostrum, temporibus adipisci. Eum, laborum hic. Iure perspiciatis ratione, fugit perferendis veniam aspernatur omnis quo soluta voluptatem, molestias aut incidunt eligendi deleniti! Modi, porro a. Eius et ipsum sit ipsam eaque. Maxime corporis dicta quam molestias iure ad eius odio sapiente, eum voluptatum. Dolor velit optio non architecto, reprehenderit exercitationem enim assumenda. Doloremque aperiam ratione possimus itaque dignissimos, beatae assumenda eaque architecto perspiciatis minus ipsa hic quisquam quia atque mollitia deserunt ullam quis. Accusamus quibusdam consectetur, est eum itaque labore sunt rerum adipisci earum. Dolore officiis assumenda facere laboriosam.</p>
+    <ProjectsContainer className="container">
+      <ProjectsSectionDiv>
+        <h4 id="Projects" className="center-align orange-text text-darken-1">Projects</h4>
+      </ProjectsSectionDiv>
+
+      <ProjectsDiv id="project">
+        <div>
+          <Project />
+        </div>
+        <div>
+          <Project />
+        </div>
+        <div>
+          <Project />
+        </div>
+      </ProjectsDiv>
+
     </ProjectsContainer>
   );
 

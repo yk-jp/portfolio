@@ -6,7 +6,7 @@ module.exports = {
 
     output: {
         filename: "./bundle.js",
-        path: path.resolve(__dirname, 'build')
+        path: path.resolve(__dirname, 'build'),
     },
 
     devtool: "source-map",
@@ -58,9 +58,12 @@ module.exports = {
                 exclude: /\.module\.css$/
             },
             {
-                test: /\.(jpg|jpeg|png|gif|mp3|svg)$/,
-                use: ["file-loader"],
-            },
+                test: /\.(png|jpe?g|gif|jp2|webp)$/,
+                loader: 'file-loader',
+                options: {
+                    name: 'images/[name].[ext]'
+                }
+            }
         ]
     },
 

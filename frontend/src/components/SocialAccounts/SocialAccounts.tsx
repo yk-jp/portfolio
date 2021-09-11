@@ -10,7 +10,7 @@ const SocialAccounts = () => {
   jqueryController();
 
   return (
-    <AccountContainer>
+    <AccountContainer className="container">
       <TwitterDiv>
         <a className="tooltipped" data-position="bottom" data-tooltip="Twitter">
           <FontAwesomeIcon icon={faTwitter} className="orange-text text-darken-1" size="2x" />

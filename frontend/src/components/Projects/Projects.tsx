@@ -1,6 +1,6 @@
 import { ProjectsContainer, ProjectsSectionDiv, ProjectsDiv } from './css/styled';
 import Project from '../Project/Project';
-
+import projectsData from '../../assets/projects/projectsData';
 const Projects = () => {
 
   return (
@@ -11,24 +11,14 @@ const Projects = () => {
 
       {/* main display */}
       <ProjectsDiv id="project">
-        <div>
-          <Project />
-        </div>
-        <div>
-          <Project />
-        </div>
-        <div>
-          <Project />
-        </div>
-        <div>
-          <Project />
-        </div>
-        <div>
-          <Project />
-        </div>
-        {/* <div>
-          <Project />
-        </div> */}
+        {projectsData.map((project, index) => {
+          return (
+            <div key={index}>
+              <Project {...project}/>
+            </div>
+          )
+        })}
+
       </ProjectsDiv>
     </ProjectsContainer>
   );

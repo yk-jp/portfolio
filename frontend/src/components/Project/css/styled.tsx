@@ -16,6 +16,7 @@ export const ProjectmainImgDiv = styled.div`
 
 export const ImgTitleSpan = styled.span`
   width:100%;
+  font-weight: bold;
   position:absolute;
   display: block;
   top:50%;
@@ -45,7 +46,7 @@ export const MoreInfoButton = styled.button`
 `;
 
 export const Img = styled.img`
-  opacity:0.5;
+  opacity:0.4;
   width: 300px;
   height: 200px;
 `;
@@ -62,7 +63,6 @@ export const ModalContentDiv = styled(ModalContentDefault)``;
 
 
 export const ModalContentText = styled(ModalContentDefault)`
-
   word-break: break-all;
 `;
 

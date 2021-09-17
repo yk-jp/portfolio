@@ -8,3 +8,5 @@
 .env
 
 /src/img
+
+.vercel

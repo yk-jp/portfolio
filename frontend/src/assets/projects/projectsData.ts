@@ -46,7 +46,7 @@ const projectsData: IProject[] = [{
     "projectDifficulties": "I struggled to make sentences fit in the image size when zooming in.",
     "techStack": ["HTML", "CSS", "Materialize", "styled-components", "React", "TypeScript","webpack","Babel"],
     "link": {
-        "visitWebsite": null,
+        "visitWebsite": "https://www.yusuk82.com/",
         "gitHub": "https://github.com/yk-jp/portfolio"
     }
 }

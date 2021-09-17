@@ -64,5 +64,6 @@ export const ModalContentText = styled(ModalContentDefault)`
 
 export const ModalChipDiv = styled.div`
     display:flex;
+    justify-content:center;
     flex-wrap:wrap;
 `;

@@ -44,7 +44,7 @@ const projectsData: IProject[] = [{
     "description": "This is my portfolio site",
     "whatILearnt": "I learnt responsive design and styled-components. I've been using plain css method or css module in react. So, I tried styled-components this time.",
     "projectDifficulties": "I struggled to make sentences fit in the image size when zooming in.",
-    "techStack": ["HTML", "CSS", "Materialize", "styled-components", "React", "TypeScript"],
+    "techStack": ["HTML", "CSS", "Materialize", "styled-components", "React", "TypeScript","webpack","Babel"],
     "link": {
         "visitWebsite": null,
         "gitHub": "https://github.com/yk-jp/portfolio"

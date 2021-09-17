@@ -4,7 +4,7 @@ import jqueryController from '../Project/controllers/jqueryController';
 import IProject from '../../interfaces/IProject';
 const Project = (project: IProject) => {
   jqueryController();
-  console.log(project);
+
   return (
     <ProjectContainer className="container">
       <ProjectmainImgDiv className="black card">

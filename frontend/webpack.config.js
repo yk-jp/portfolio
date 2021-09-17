@@ -1,7 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
-const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
+
 module.exports = () => {
 
     return {
@@ -60,7 +60,7 @@ module.exports = () => {
                     exclude: /\.module\.css$/
                 },
                 {
-                    test: /\.(png|jpe?g|gif|jp2|webp)$/,
+                    test: /\.(png|jpe?g|gif|jp2|webp|ico)$/,
                     loader: 'file-loader',
                     options: {
                         name: 'images/[name].[ext]'
@@ -71,10 +71,10 @@ module.exports = () => {
         plugins: [
             new HtmlWebpackPlugin({
                 template: './src/index.html',
+                favicon: './src/assets/favicon.ico'
             }),
 
-            new Dotenv(),
-            new FaviconsWebpackPlugin('./src/assets/favicon.ico')
+            new Dotenv()
         ]
     }
 };

@@ -1,7 +1,17 @@
-import style from './style.module.css';
+import { BrowserRouter as Router } from "react-router-dom";
+
+import Hero from "./components/Hero/Hero";
+import AboutMe from "./components/AboutMe/AboutMe";
+import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
 const App = () => {
   return (
-    <div>Hello world</div>
+    <Router>
+      <Hero />
+      <AboutMe />
+      <Projects />
+      <Contact />
+    </Router>
   );
 }
 

@@ -1,70 +1,80 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
-module.exports = {
-  entry: "./src/index.tsx",
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
+module.exports = () => {
 
-  output: {
-    filename: "./bundle.js",
-    path: path.resolve(__dirname, 'build')
-  },
+    return {
+        entry: "./src/index.tsx",
 
-  devtool: "source-map",
+        output: {
+            filename: "./bundle.js",
+            path: path.resolve(__dirname, 'build'),
+        },
 
-  resolve: {
-    extensions: ['.ts', '.tsx', '.js', 'jsx', '.json']
-  },
+        devtool: "source-map",
 
-  devServer: {
-    static: './build',
-    port: 3000
-  },
+        resolve: {
+            extensions: ['.ts', '.tsx', '.js', 'jsx', '.json']
+        },
 
-  module: {
-    rules: [
-      {
-        test: /\.(js|jsx)$/,
-        exclude: '/node_modules/',
-        loader: 'babel-loader'
-      },
-      {
-        test: /\.(ts|tsx)$/,
-        exclude: /node_modules/,
-        use: ["ts-loader"],
-      },
-      {
-        test: /\.css$/,
-        use: [
-          'style-loader',
-          {
-            loader: 'css-loader',
-            options: {
-              importLoaders: 1,
-              modules: true
-            }
-          }
-        ],
-        include: /\.module\.css$/
-      },
-      {
-        test: /\.css$/,
-        use: [
-          'style-loader',
-          'css-loader'
-        ],
-        exclude: /\.module\.css$/
-      },
-      {
-        test: /\.(jpg|jpeg|png|gif|mp3|svg)$/,
-        use: ["file-loader"],
-      },
-    ]
-  },
+        devServer: {
+            static: './build/',
+            port: 3000
+        },
 
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './src/index.html',
-    }),
-    new Dotenv()
-  ]
-}
+        performance: {
+            hints: false
+        },
+        module: {
+            rules: [{
+                    test: /\.(js|jsx)$/,
+                    exclude: '/node_modules/',
+                    loader: 'babel-loader'
+                },
+                {
+                    test: /\.(ts|tsx)$/,
+                    exclude: /node_modules/,
+                    use: ["ts-loader"],
+                },
+                {
+                    test: /\.css$/,
+                    use: [
+                        'style-loader',
+                        {
+                            loader: 'css-loader',
+                            options: {
+                                importLoaders: 1,
+                                modules: true
+                            }
+                        }
+                    ],
+                    include: /\.module\.css$/
+                },
+                {
+                    test: /\.css$/,
+                    use: [
+                        'style-loader',
+                        'css-loader'
+                    ],
+                    exclude: /\.module\.css$/
+                },
+                {
+                    test: /\.(png|jpe?g|gif|jp2|webp)$/,
+                    loader: 'file-loader',
+                    options: {
+                        name: 'images/[name].[ext]'
+                    }
+                }
+            ]
+        },
+        plugins: [
+            new HtmlWebpackPlugin({
+                template: './src/index.html',
+            }),
+
+            new Dotenv(),
+            new FaviconsWebpackPlugin('./src/assets/favicon.ico')
+        ]
+    }
+};

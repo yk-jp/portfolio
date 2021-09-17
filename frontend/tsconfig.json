@@ -9,7 +9,14 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "preserveConstEnums": true,
-    "moduleResolution":"node"
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "src/@types"
+    ]
   },
-  "include": ["./src/**/*"]
+  "include": [
+    "src"
+  ]
 }

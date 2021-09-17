@@ -23,7 +23,7 @@ export const ImgTitleSpan = styled.span`
   left:50%;
   margin:0;
   padding:0;
-  font-size:1em;
+  font-size:1.2em;
   --ms-transform: translate(-50%,-50%);
   --webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
@@ -45,11 +45,7 @@ export const MoreInfoButton = styled.button`
   padding:10px;
 `;
 
-export const Img = styled.img`
-  opacity:0.4;
-  width: 300px;
-  height: 200px;
-`;
+export const Img = styled.img``;
 
 export const ModalContainer = styled.div``;
 
@@ -68,5 +64,6 @@ export const ModalContentText = styled(ModalContentDefault)`
 
 export const ModalChipDiv = styled.div`
     display:flex;
+    justify-content:center;
     flex-wrap:wrap;
 `;

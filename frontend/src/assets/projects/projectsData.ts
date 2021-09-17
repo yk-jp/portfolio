@@ -47,7 +47,7 @@ const projectsData: IProject[] = [{
     "techStack": ["HTML", "CSS", "Materialize", "styled-components", "React", "TypeScript"],
     "link": {
         "visitWebsite": null,
-        "gitHub": ""
+        "gitHub": "https://github.com/yk-jp/portfolio"
     }
 }
 ];

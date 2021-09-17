@@ -1,1 +1,0 @@
-import projects from ',./assets/projects/projects.json';

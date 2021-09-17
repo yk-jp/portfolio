@@ -9,7 +9,7 @@ const Project = (project: IProject) => {
     <ProjectContainer className="container">
       <ProjectmainImgDiv className="black card">
         <div className="break-word-all">
-          <Img src={project.image} alt="Error"></Img>
+          <Img className="opacity-05 image-size" src={project.image} alt="Error"></Img>
           <ImgTitleSpan id="projectTitle" className="white-text center-align">{project.title}</ImgTitleSpan>
         </div>
         <MoreInfoButton className="orange-text modal-trigger center-align waves-effect waves-orange" data-target={project.title}>Read More</MoreInfoButton>

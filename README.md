@@ -4,7 +4,7 @@ This is my portfolio site.
 <img src="./frontend/src/assets/img/portfolio.png" alt="error" />
 
 # Live project 
-https://www.yusuk82.com/
+https://portfolio-yk-jp.vercel.app/
 
 # Usage
 

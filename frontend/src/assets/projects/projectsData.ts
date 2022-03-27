@@ -10,7 +10,7 @@ const projectsData: IProject[] = [{
 
     "techStack": ["HTML", "CSS", "Bootstrap", "React", "TypeScript", "Node.js", "Socket.io", "Sequelize", "MySQL", "Jest"],
     "link": {
-        "visitWebsite": "https://www.codenames.ml/",
+        "visitWebsite": "https://web-codenames-app.netlify.app/",
         "gitHub": "https://github.com/yk-jp/Codenames"
     }
 },
@@ -46,7 +46,7 @@ const projectsData: IProject[] = [{
     "projectDifficulties": "I struggled to make sentences fit in the image size when zooming in.",
     "techStack": ["HTML", "CSS", "Materialize", "styled-components", "React", "TypeScript","webpack","Babel"],
     "link": {
-        "visitWebsite": "https://www.yusuk82.com/",
+        "visitWebsite": "https://portfolio-yk-jp.vercel.app/",
         "gitHub": "https://github.com/yk-jp/portfolio"
     }
 },

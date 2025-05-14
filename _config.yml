@@ -1,24 +1,24 @@
 # Your name and what you do
-name: Eve Adam
+name: Yusuke Kohatsu
 bio: Software Developer
 
-description: Eve Adam's Personal Website
+description: Yusuke's Personal Website
 
 # Profile picture
 picture: assets/images/profile.jpg
 
 # your url: http://USERNAME.github.io
-url: https://jibolash.github.io/Eve/
+url: https://yk-jp.github.io/portfolio/
 
 # do you want to display social media links? true or false
 social-media: true
 # Add your username for the social media websites listed below
 # If you don't have an account on any of them, comment out the line
 # facebook: myfacebook
-twitter: mytwitter
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+# twitter: mytwitter
+linkedin: yusukekohatsu
+github: yk-jp
+email: k82.y12@gmail.com
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -35,45 +35,141 @@ email: myemail@gmail.com
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # do you want to display an about section? true or false
 about: true
 
+career: true
+
+career-list:
+    - job_title: Software Engineer
+      company: Ichigo, Inc
+      start-date: Oct 2024
+      end-date: Present
+      achivements:
+          - Contributed to launching a new shipment method using Ruby, TypeScript, and AWS to sell snack boxes.
+          - Resolved pricing discrepancies from external services such as Shopify and Amazon without overloading the OMS using Ruby, Shopify, external APIs, and Workers.
+          - Optimised the use of an external API to print shipping labels by implementing bulk batch processing in Ruby.
+          - Implemented a new listing page to handle urgent tasks due to customs policy updates using TypeScript, Ruby, MySQL, and AWS.
+          - Removed unused code from complex shipping logic without causing financial damages and adjusted all shipping-related test code using Ruby.
+          - Handled support request tickets daily for other teams in addition to main tasks.
+      skills:
+          - Ruby
+          - TypeScript
+          - GraphQL
+          - Sentry
+          - MongoDB
+          - AWS
+          - MySQL
+          - Docker
+          - Shopify
+          - Sidekiq
+
+    - job_title: Backend Engineer
+      company: Sippy Software, Inc
+      start-date: Dec 2022
+      end-date: Aug 2024
+      achivements:
+          - Optimized SQL query to make the call detail record report three times faster.
+          - Provided a custom shell script for translating call numbers to meet urgent customer needs, bolstering sales by $300 within a week.
+          - Developed and deployed a new invoice table feature using Python and PostgreSQL.
+          - Led the design and implementation of highly maintainable and loosely coupled code for distributed components using Python, Go, PHP, and XML-RPC.
+          - Created robust XML-APIs and ensured their stability with 100% test coverage using Python and pytest.
+          - Streamlined the development process by configuring build checks and implementing automated unit testing in Go for 10 repositories using the Bitbucket pipeline.
+      skills:
+          - Python
+          - Go
+          - PHP
+          - PostgreSQL
+          - MySQL
+          - XML-RPC
+          - Jenkins
+          - Apache Thrift
+          - Bitbucket
+          - pytest
+
+    - job_title: iOS / Backend Engineer
+      company: DPCode Inc.
+      start-date: June 2022
+      end-date: Oct 2022
+      achivements:
+          - Developed and deployed a serverless function using Cloud Functions, Gmail API, TypeScript, and Node.js to seamlessly send customers' invoice PDFs via email.
+          - Implemented notification logic to remind users of sending invoices using Swift.
+          - Elevated code maintainability and quality by implementing automation testing and linting using CircleCI for the invoice application.
+          - Collaboratively designed the system architecture alongside team members, ensuring efficient communication and a well-structured approach to the project.
+      skills:
+          - Swift
+          - TypeScript
+          - Node.js
+          - Cloud Functions
+          - CircleCI
+          - Firebase
+    - job_title: Full-Stack Engineer Intern
+      company: Myadcenter
+      start-date: Jan 2022
+      end-date: June 2022
+      achivements:
+          - Developed a user-friendly form component for purchasing phone numbers with robust validations using Redux, MaterialUI, JavaScript, Next.js, and Twilio API.
+          - Optimised code efficiency by resolving existing issues and streamlining the retrieval of billing data from the database in Node.js, JavaScript, Express.js, and MySQL.
+          - Revamped the method for searching and filtering data in Node.js, Express.js, JavaScript, Next.js, and MySQL, enhancing code reusability and scalability.
+      skills:
+          - JavaScript
+          - Node.js
+          - Express.js
+          - MySQL
+          - Next.js
+
+    - job_title: Systems Engineer
+      company: Hitachi Systems, Ltd
+      start-date: Apr 2020
+      end-date: Sept 2021
+      achivements:
+          - Developed a robust REST API for the user management system in Java, ensuring 100% test coverage with JUnit.
+          - Created reusable table components for the user management system using HTML, CSS, and TypeScript in frontend development.
+          - Detected all potential bugs before shipment by achieving 100% test coverage for the Construction Cost Management System using Java and manual testing.
+          - Conducted thorough user testing and diligently reported bugs via JIRA.
+          - Removed all functional bugs by designing test cases and meticulously verifying test results for the construction cost management system using MySQL and JIRA for manual testing.
+      skills:
+          - Java
+          - TypeScript
+          - Node.js
+          - MySQL
+
 # do you want to display a skills section? true or false
-skills: true
+skills: false
 
 # add your skills here
 skills-list:
-    - HTML, Jade
-    - CSS (Stylus, Sass, Less)
-    - Javascript, NodeJS
-    - AngularJS, ReactJS
-    - Java, Android
-    - Python
-    - MySQL - MongoDB
-    - Git
+    # - HTML, Jade
+    # - CSS (Stylus, Sass, Less)
+    # - Javascript, NodeJS
+    # - AngularJS, ReactJS
+    # - Java, Android
+    # - Python
+    # - MySQL - MongoDB
+    # - Git
 
 # do you want to display a projects section? true or false
-projects: true
+projects: false
 
 # add your projects here
-project-list:
-    QuizKnit:
-        name: QuizKnit
-        description: AI powered web application that generates a quiz based on user provided text. Users can share the quiz using a custom url and also test their knowledge by exploring quizzes created by other people.
-        url: https://quizknit.com
-    Eve:
-        name: Eve
-        description: Ultra Minimal Single-page Jekyll Template for Building Personal Portfolio Websites. Currently has 50+ Github stars. This website is built with it!
-        url: https://github.com/jibolash/Eve
-    World-Cup-History:
-        name: World Cup  History
-        description: npm package for FIFA World cup historical data.
-        url: https://github.com/jibolash/world-cup-history
+# project-list:
+#     QuizKnit:
+#         name: QuizKnit
+#         description: AI powered web application that generates a quiz based on user provided text. Users can share the quiz using a custom url and also test their knowledge by exploring quizzes created by other people.
+#         url: https://quizknit.com
+#     Eve:
+#         name: Eve
+#         description: Ultra Minimal Single-page Jekyll Template for Building Personal Portfolio Websites. Currently has 50+ Github stars. This website is built with it!
+#         url: https://github.com/jibolash/Eve
+#     World-Cup-History:
+#         name: World Cup  History
+#         description: npm package for FIFA World cup historical data.
+#         url: https://github.com/jibolash/world-cup-history
 
 # do you want to display the theme attribution? true or false
-footer: true
+footer: false
 
 # Enable animations? true or false
 animation: true

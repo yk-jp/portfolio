@@ -9,6 +9,17 @@
     {% include about.html %}
 {% endif %}
 
+{% if site.career %}
+    <nav class="nav-home">
+        <ul class="list">
+            <li class="item">
+                <h2>Career</h2>
+            </li>
+        </ul>
+    </nav>
+    {% include career.html %}
+{% endif %}
+
 {% if site.skills %}
     <nav class="nav-home">
         <ul class="list">

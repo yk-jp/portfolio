@@ -1,0 +1,20 @@
+{% if site.certifications-list %}
+<section id="certifications">
+    <ul style="list-style: none; padding-left: 0; margin-left: 0;">
+        {% for cert in site.certifications-list %}
+        <li style="margin-bottom: 1em;">
+            <strong>{{ cert.name }}</strong>
+            <ul style="list-style: disc; padding-left: 1.5em; margin: 0;">
+                {% if cert.organization %}
+                <li>{{ cert.organization }}</li>
+                {% endif %}
+                <li>
+                    {{ cert.issue-date }}{% if cert.expiry-date %} – {{
+                    cert.expiry-date }}{% endif %}
+                </li>
+            </ul>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}

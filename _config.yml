@@ -153,6 +153,25 @@ education-list:
 
 certifications: true
 
+certifications-list:
+    - name: AWS Certified Solutions Architect – Associate
+      issue-date: Mar 2024
+      expiry-date: Mar 2027
+
+    - name: AWS Certified Cloud Practitioner
+      issue-date: Sep 2023
+      expiry-date: Sep 2026
+
+    - name: IELTS General Training O.A 8.0
+      issue-date: Aug 2023
+      expiry-date: Aug 2025
+
+    - name: Hacktoberfest 2022 - OSS contributions
+      issue-date: Oct 2022
+
+    - name: TOEIC Listening & Reading 825
+      issue-date: Mar 2021
+
 # do you want to display a skills section? true or false
 skills: false
 

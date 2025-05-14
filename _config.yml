@@ -40,151 +40,154 @@ width: large
 # do you want to display an about section? true or false
 about: true
 
+about_description:
+  - I am a software engineer with a strong background in backend development and a passion for creating efficient and scalable applications. I enjoy working with people internationally and am always eager to learn new technologies and improve my skills. If you are looking for a dedicated and skilled software engineer, please feel free to reach out to me. I am open to new opportunities and challenges that will allow me to grow both personally and professionally.
+
 career: true
 
 career-list:
-    - job_title: Software Engineer
-      company: Ichigo, Inc
-      start-date: Oct 2024
-      end-date: Present
-      achivements:
-          - Contributed to launching a new shipment method using Ruby, TypeScript, and AWS to sell snack boxes.
-          - Resolved pricing discrepancies from external services such as Shopify and Amazon without overloading the OMS using Ruby, Shopify, external APIs, and Workers.
-          - Optimised the use of an external API to print shipping labels by implementing bulk batch processing in Ruby.
-          - Implemented a new listing page to handle urgent tasks due to customs policy updates using TypeScript, Ruby, MySQL, and AWS.
-          - Removed unused code from complex shipping logic without causing financial damages and adjusted all shipping-related test code using Ruby.
-          - Handled support request tickets daily for other teams in addition to main tasks.
-      skills:
-          - Ruby
-          - TypeScript
-          - GraphQL
-          - Sentry
-          - MongoDB
-          - AWS
-          - MySQL
-          - Docker
-          - Shopify
-          - Sidekiq
+  - job_title: Software Engineer
+    company: Ichigo, Inc
+    start-date: Oct 2024
+    end-date: Present
+    achivements:
+      - Contributed to launching a new shipment method using Ruby, TypeScript, and AWS to sell snack boxes.
+      - Resolved pricing discrepancies from external services such as Shopify and Amazon without overloading the OMS using Ruby, Shopify, external APIs, and Workers.
+      - Optimised the use of an external API to print shipping labels by implementing bulk batch processing in Ruby.
+      - Implemented a new listing page to handle urgent tasks due to customs policy updates using TypeScript, Ruby, MySQL, and AWS.
+      - Removed unused code from complex shipping logic without causing financial damages and adjusted all shipping-related test code using Ruby.
+      - Handled support request tickets daily for other teams in addition to main tasks.
+    skills:
+      - Ruby
+      - TypeScript
+      - GraphQL
+      - Sentry
+      - MongoDB
+      - AWS
+      - MySQL
+      - Docker
+      - Shopify
+      - Sidekiq
 
-    - job_title: Backend Engineer
-      company: Sippy Software, Inc
-      start-date: Dec 2022
-      end-date: Aug 2024
-      achivements:
-          - Optimized SQL query to make the call detail record report three times faster.
-          - Provided a custom shell script for translating call numbers to meet urgent customer needs, bolstering sales by $300 within a week.
-          - Developed and deployed a new invoice table feature using Python and PostgreSQL.
-          - Led the design and implementation of highly maintainable and loosely coupled code for distributed components using Python, Go, PHP, and XML-RPC.
-          - Created robust XML-APIs and ensured their stability with 100% test coverage using Python and pytest.
-          - Streamlined the development process by configuring build checks and implementing automated unit testing in Go for 10 repositories using the Bitbucket pipeline.
-      skills:
-          - Python
-          - Go
-          - PHP
-          - PostgreSQL
-          - MySQL
-          - XML-RPC
-          - Jenkins
-          - Apache Thrift
-          - Bitbucket
-          - pytest
+  - job_title: Backend Engineer
+    company: Sippy Software, Inc
+    start-date: Dec 2022
+    end-date: Aug 2024
+    achivements:
+      - Optimized SQL query to make the call detail record report three times faster.
+      - Provided a custom shell script for translating call numbers to meet urgent customer needs, bolstering sales by $300 within a week.
+      - Developed and deployed a new invoice table feature using Python and PostgreSQL.
+      - Led the design and implementation of highly maintainable and loosely coupled code for distributed components using Python, Go, PHP, and XML-RPC.
+      - Created robust XML-APIs and ensured their stability with 100% test coverage using Python and pytest.
+      - Streamlined the development process by configuring build checks and implementing automated unit testing in Go for 10 repositories using the Bitbucket pipeline.
+    skills:
+      - Python
+      - Go
+      - PHP
+      - PostgreSQL
+      - MySQL
+      - XML-RPC
+      - Jenkins
+      - Apache Thrift
+      - Bitbucket
+      - pytest
 
-    - job_title: iOS / Backend Engineer
-      company: DPCode Inc.
-      start-date: June 2022
-      end-date: Oct 2022
-      achivements:
-          - Developed and deployed a serverless function using Cloud Functions, Gmail API, TypeScript, and Node.js to seamlessly send customers' invoice PDFs via email.
-          - Implemented notification logic to remind users of sending invoices using Swift.
-          - Elevated code maintainability and quality by implementing automation testing and linting using CircleCI for the invoice application.
-          - Collaboratively designed the system architecture alongside team members, ensuring efficient communication and a well-structured approach to the project.
-      skills:
-          - Swift
-          - TypeScript
-          - Node.js
-          - Cloud Functions
-          - CircleCI
-          - Firebase
-    - job_title: Full-Stack Engineer Intern
-      company: Myadcenter
-      start-date: Jan 2022
-      end-date: June 2022
-      achivements:
-          - Developed a user-friendly form component for purchasing phone numbers with robust validations using Redux, MaterialUI, JavaScript, Next.js, and Twilio API.
-          - Optimised code efficiency by resolving existing issues and streamlining the retrieval of billing data from the database in Node.js, JavaScript, Express.js, and MySQL.
-          - Revamped the method for searching and filtering data in Node.js, Express.js, JavaScript, Next.js, and MySQL, enhancing code reusability and scalability.
-      skills:
-          - JavaScript
-          - Node.js
-          - Express.js
-          - MySQL
-          - Next.js
+  - job_title: iOS / Backend Engineer
+    company: DPCode Inc.
+    start-date: June 2022
+    end-date: Oct 2022
+    achivements:
+      - Developed and deployed a serverless function using Cloud Functions, Gmail API, TypeScript, and Node.js to seamlessly send customers' invoice PDFs via email.
+      - Implemented notification logic to remind users of sending invoices using Swift.
+      - Elevated code maintainability and quality by implementing automation testing and linting using CircleCI for the invoice application.
+      - Collaboratively designed the system architecture alongside team members, ensuring efficient communication and a well-structured approach to the project.
+    skills:
+      - Swift
+      - TypeScript
+      - Node.js
+      - Cloud Functions
+      - CircleCI
+      - Firebase
+  - job_title: Full-Stack Engineer Intern
+    company: Myadcenter
+    start-date: Jan 2022
+    end-date: June 2022
+    achivements:
+      - Developed a user-friendly form component for purchasing phone numbers with robust validations using Redux, MaterialUI, JavaScript, Next.js, and Twilio API.
+      - Optimised code efficiency by resolving existing issues and streamlining the retrieval of billing data from the database in Node.js, JavaScript, Express.js, and MySQL.
+      - Revamped the method for searching and filtering data in Node.js, Express.js, JavaScript, Next.js, and MySQL, enhancing code reusability and scalability.
+    skills:
+      - JavaScript
+      - Node.js
+      - Express.js
+      - MySQL
+      - Next.js
 
-    - job_title: Systems Engineer
-      company: Hitachi Systems, Ltd
-      start-date: Apr 2020
-      end-date: Sept 2021
-      achivements:
-          - Developed a robust REST API for the user management system in Java, ensuring 100% test coverage with JUnit.
-          - Created reusable table components for the user management system using HTML, CSS, and TypeScript in frontend development.
-          - Detected all potential bugs before shipment by achieving 100% test coverage for the Construction Cost Management System using Java and manual testing.
-          - Conducted thorough user testing and diligently reported bugs via JIRA.
-          - Removed all functional bugs by designing test cases and meticulously verifying test results for the construction cost management system using MySQL and JIRA for manual testing.
-      skills:
-          - Java
-          - TypeScript
-          - Node.js
-          - MySQL
+  - job_title: Systems Engineer
+    company: Hitachi Systems, Ltd
+    start-date: Apr 2020
+    end-date: Sept 2021
+    achivements:
+      - Developed a robust REST API for the user management system in Java, ensuring 100% test coverage with JUnit.
+      - Created reusable table components for the user management system using HTML, CSS, and TypeScript in frontend development.
+      - Detected all potential bugs before shipment by achieving 100% test coverage for the Construction Cost Management System using Java and manual testing.
+      - Conducted thorough user testing and diligently reported bugs via JIRA.
+      - Removed all functional bugs by designing test cases and meticulously verifying test results for the construction cost management system using MySQL and JIRA for manual testing.
+    skills:
+      - Java
+      - TypeScript
+      - Node.js
+      - MySQL
 
 educations: true
 
 education-list:
-    - school: CICCC - Cornerstone International Community College of Canada
-      degree: Web and Mobile Application Development Diploma
-      major: Web and Mobile App Development
-      start-date: Jan 2022
-      end-date: Dec 2023
+  - school: CICCC - Cornerstone International Community College of Canada
+    degree: Web and Mobile Application Development Diploma
+    major: Web and Mobile App Development
+    start-date: Jan 2022
+    end-date: Dec 2023
 
-    - school: Meiji University
-      degree: Bachelor of Interdisciplinary Engineering
-      major: Interdisciplinary Mathematical Sciences
-      start-date: Apr 2016
-      end-date: Mar 2020
+  - school: Meiji University
+    degree: Bachelor of Interdisciplinary Engineering
+    major: Interdisciplinary Mathematical Sciences
+    start-date: Apr 2016
+    end-date: Mar 2020
 
 certifications: true
 
 certifications-list:
-    - name: AWS Certified Solutions Architect – Associate
-      issue-date: Mar 2024
-      expiry-date: Mar 2027
+  - name: AWS Certified Solutions Architect – Associate
+    issue-date: Mar 2024
+    expiry-date: Mar 2027
 
-    - name: AWS Certified Cloud Practitioner
-      issue-date: Sep 2023
-      expiry-date: Sep 2026
+  - name: AWS Certified Cloud Practitioner
+    issue-date: Sep 2023
+    expiry-date: Sep 2026
 
-    - name: IELTS General Training O.A 8.0
-      issue-date: Aug 2023
-      expiry-date: Aug 2025
+  - name: IELTS General Training O.A 8.0
+    issue-date: Aug 2023
+    expiry-date: Aug 2025
 
-    - name: Hacktoberfest 2022 - OSS contributions
-      issue-date: Oct 2022
+  - name: Hacktoberfest 2022 - OSS contributions
+    issue-date: Oct 2022
 
-    - name: TOEIC Listening & Reading 825
-      issue-date: Mar 2021
+  - name: TOEIC Listening & Reading 825
+    issue-date: Mar 2021
 
 # do you want to display a skills section? true or false
 skills: false
 
 # add your skills here
 skills-list:
-    # - HTML, Jade
-    # - CSS (Stylus, Sass, Less)
-    # - Javascript, NodeJS
-    # - AngularJS, ReactJS
-    # - Java, Android
-    # - Python
-    # - MySQL - MongoDB
-    # - Git
+  # - HTML, Jade
+  # - CSS (Stylus, Sass, Less)
+  # - Javascript, NodeJS
+  # - AngularJS, ReactJS
+  # - Java, Android
+  # - Python
+  # - MySQL - MongoDB
+  # - Git
 
 # do you want to display a projects section? true or false
 projects: false
@@ -211,6 +214,6 @@ footer: false
 animation: true
 
 gems:
-    - jekyll-seo-tag
+  - jekyll-seo-tag
 
 exclude: [README.md, Gemfile, Gemfile.lock, _site, Rakefile, travis.sh, vendor]

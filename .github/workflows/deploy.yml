@@ -22,7 +22,7 @@ jobs:
 
     - name: Merge master into gh-pages
       run: |
-        git merge origin/master --no-ff --allow-unrelated-histories
+        git merge origin/master
 
     - name: Push changes to gh-pages
       run: |

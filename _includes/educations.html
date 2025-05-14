@@ -1,0 +1,20 @@
+{% if site.educations and site.education-list %}
+<section id="education">
+    <ul style="list-style: none; padding-left: 0; margin-left: 0;">
+        {% for edu in site.education-list %}
+        <li style="margin-bottom: 10px;">
+            <strong>{{ edu.school }}</strong>
+            <ul style="list-style: disc; padding-left: 1.5em; margin: 0;">
+                <li>
+                    {{ edu.degree }}{% if edu.major %}, {{ edu.major }}{% endif
+                    %}
+                </li>
+                <li>
+                    {{ edu.start-date }} – {{ edu.end-date }}
+                </li>
+            </ul>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}

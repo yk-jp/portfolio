@@ -136,6 +136,23 @@ career-list:
           - Node.js
           - MySQL
 
+educations: true
+
+education-list:
+    - school: CICCC - Cornerstone International Community College of Canada
+      degree: Web and Mobile Application Development Diploma
+      major: Web and Mobile App Development
+      start-date: Jan 2022
+      end-date: Dec 2023
+
+    - school: Meiji University
+      degree: Bachelor of Interdisciplinary Engineering
+      major: Interdisciplinary Mathematical Sciences
+      start-date: Apr 2016
+      end-date: Mar 2020
+
+certifications: true
+
 # do you want to display a skills section? true or false
 skills: false
 

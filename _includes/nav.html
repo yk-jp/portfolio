@@ -1,43 +1,65 @@
 {% if site.about %}
-    <nav class="nav-home">
-        <ul class="list">
-            <li class="item">
-                <h2>About</h2>
-            </li>
-        </ul>
-    </nav> 
-    {% include about.html %}
+<nav class="nav-home">
+    <ul class="list">
+        <li class="item">
+            <h2>About</h2>
+        </li>
+    </ul>
+</nav>
+{% include about.html %}
 {% endif %}
 
 {% if site.career %}
-    <nav class="nav-home">
-        <ul class="list">
-            <li class="item">
-                <h2>Career</h2>
-            </li>
-        </ul>
-    </nav>
-    {% include career.html %}
+<nav class="nav-home">
+    <ul class="list">
+        <li class="item">
+            <h2>Career</h2>
+        </li>
+    </ul>
+</nav>
+{% include career.html %}
+{% endif %}
+
+{% if site.educations %}
+<nav class="nav-home">
+    <ul class="list">
+        <li class="item">
+            <h2>Educations</h2>
+        </li>
+    </ul>
+</nav>
+{% include educations.html %}
+{% endif %}
+
+{% if site.certifications %}
+<nav class="nav-home">
+    <ul class="list">
+        <li class="item">
+            <h2>Certifications</h2>
+        </li>
+    </ul>
+</nav>
+{% include certifications.html %}
 {% endif %}
 
 {% if site.skills %}
-    <nav class="nav-home">
-        <ul class="list">
-            <li class="item">
-                <h2>Skills</h2>
-            </li>
-        </ul>
-    </nav>
-    {% include skills.html %}
+<nav class="nav-home">
+    <ul class="list">
+        <li class="item">
+            <h2>Skills</h2>
+        </li>
+    </ul>
+</nav>
+{% include skills.html %}
 {% endif %}
 
 {% if site.projects %}
-    <nav class="nav-home">
-        <ul class="list">
-            <li class="item">
-                <h2>Projects</h2>
-            </li>
-        </ul>
-    </nav>
-    {% include projects.html %}
+<nav class="nav-home">
+    <ul class="list">
+        <li class="item">
+            <h2>Projects</h2>
+        </li>
+    </ul>
+</nav>
+{% include projects.html %}
 {% endif %}
